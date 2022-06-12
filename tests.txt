@@ -1,0 +1,143 @@
+Test #1
+Getting the first record in our JSON with id=1 - DataStoreLibrary.load_cars(1)
+
+Result:
+Mercedes Benz C Class 2020 20000
+
+-------
+Test #2
+Getting all Ferrari records in our JSON with id=1 - DataStoreLibrary.load_cars("Ferrari")
+
+Result:
+Ferrari SF90 Stradale 2021 357000
+Ferrari La Ferrari 2013 1200000
+
+-------
+Test #3
+Adding another car to our database - DataStoreLibrary.add_car("7", "test", "test", "test", 100)
+
+Result:
+[
+     {
+          "id": 1,
+          "name": "Mercedes Benz",
+          "model": "C Class",
+          "year": "2020",
+          "Price": 20000
+     },
+     {
+          "id": 2,
+          "name": "Mercedes Benz",
+          "model": "E Class",
+          "year": "2019",
+          "Price": 30000
+     },
+     {
+          "id": 3,
+          "name": "Audi",
+          "model": "A8 L",
+          "year": "2021",
+          "Price": 65000
+     },
+     {
+          "id": 4,
+          "name": "Ferrari",
+          "model": "SF90 Stradale",
+          "year": "2021",
+          "Price": 357000
+     },
+     {
+          "id": 5,
+          "name": "Ferrari",
+          "model": "La Ferrari",
+          "year": "2013",
+          "Price": 1200000
+     },
+     {
+          "id": 6,
+          "name": "Volkswagen",
+          "model": "Golf VIII",
+          "year": "2022",
+          "Price": 40000
+     },
+     {
+          "id": "7",
+          "name": "test",
+          "model": "test",
+          "year": "test",
+          "Price": 100
+     }
+]
+
+-------
+Test #4
+Deleting a car, in our case the car which has ID=5 - DataStoreLibrary.delete_car(5)
+
+Result:
+[
+     {
+          "id": 1,
+          "name": "Mercedes Benz",
+          "model": "C Class",
+          "year": "2020",
+          "Price": 20000
+     },
+     {
+          "id": 2,
+          "name": "Mercedes Benz",
+          "model": "E Class",
+          "year": "2019",
+          "Price": 30000
+     },
+     {
+          "id": 3,
+          "name": "Audi",
+          "model": "A8 L",
+          "year": "2021",
+          "Price": 65000
+     },
+     {
+          "id": 4,
+          "name": "Ferrari",
+          "model": "SF90 Stradale",
+          "year": "2021",
+          "Price": 357000
+     },
+     {
+          "id": 6,
+          "name": "Volkswagen",
+          "model": "Golf VIII",
+          "year": "2022",
+          "Price": 40000
+     },
+     {
+          "id": "7",
+          "name": "test",
+          "model": "test",
+          "year": "test",
+          "Price": 100
+     }
+]
+
+-------
+Test #5
+Updating infos for one car - DataStoreLibrary.update_car(1, "BMW", "M5", "2021", 70000)
+
+Result:
+It was -
+{
+          "id": 1,
+          "name": "Mercedes Benz",
+          "model": "C Class",
+          "year": "2020",
+          "Price": 20000
+     },
+
+It became -
+{
+          "id": 1,
+          "name": "BMW",
+          "model": "M5",
+          "year": "2021",
+          "Price": 70000
+     },

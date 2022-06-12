@@ -1,0 +1,44 @@
+[
+     {
+          "id": 1,
+          "name": "Mercedes Benz",
+          "model": "C Class",
+          "year": "2020",
+          "Price": 20000
+     },
+     {
+          "id": 2,
+          "name": "Mercedes Benz",
+          "model": "E Class",
+          "year": "2019",
+          "Price": 30000
+     },
+     {
+          "id": 3,
+          "name": "Audi",
+          "model": "A8 L",
+          "year": "2021",
+          "Price": 65000
+     },
+     {
+          "id": 4,
+          "name": "Ferrari",
+          "model": "SF90 Stradale",
+          "year": "2021",
+          "Price": 357000
+     },
+     {
+          "id": 5,
+          "name": "Ferrari",
+          "model": "La Ferrari",
+          "year": "2013",
+          "Price": 1200000
+     },
+     {
+          "id": 6,
+          "name": "Volkswagen",
+          "model": "Golf VIII",
+          "year": "2022",
+          "Price": 40000
+     }
+]
